@@ -39,7 +39,7 @@ export function DashboardHeader() {
         </SheetContent>
       </Sheet>
       <Link href="/dashboard" className="flex items-center gap-2 font-semibold">
-          <Image src="https://ls-bucket12345.s3.us-east-1.amazonaws.com/lankaShop.jpeg" alt="Description of the image" width={50} height={50} loading="lazy"></Image>
+          <Image src="/logo.jpg" alt="Description of the image" width={160} height={80} loading="lazy"></Image>
       </Link>
       <div className="ml-auto flex items-center gap-2">
         {user && (

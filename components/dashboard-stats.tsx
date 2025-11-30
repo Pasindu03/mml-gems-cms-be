@@ -101,7 +101,7 @@ export function DashboardStats() {
         </CardHeader>
         <CardContent>
           <div className="text-2xl font-bold">
-            {loading ? "..." : `£${stats.revenue.toFixed(2)}`}
+            {loading ? "..." : `$${stats.revenue.toFixed(2)}`}
           </div>
           <p className="text-xs text-muted-foreground">
             Total revenue from paid orders
